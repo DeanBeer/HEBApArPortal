@@ -1,3 +1,3 @@
 module NRB
-  autoload :HEBApArPortal, File.join('nrb', 'heb_ap_ar_portal')
+  autoload :HEB, File.join('nrb', 'heb')
 end

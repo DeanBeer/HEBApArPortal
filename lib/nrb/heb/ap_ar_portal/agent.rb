@@ -1,7 +1,7 @@
 require 'mechanize'
 require 'singleton'
 
-module NRB::HEBApArPortal
+module NRB::HEB::ApArPortal
   class Agent < Mechanize
     include Singleton
 

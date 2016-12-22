@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nrb/heb_ap_ar_portal/version'
+require 'nrb'
 
 Gem::Specification.new do |spec|
-  spec.name          = "nrb-heb_ap_ar_portal"
-  spec.version       = NRB::HEBApArPortal::VERSION
+  spec.name          = "nrb-heb-ap_ar_portal"
+  spec.version       = NRB::HEB::ApArPortal::VERSION
   spec.authors       = ["Dean Brundage"]
   spec.email         = ["dean@newrepublicbrewing.com"]
 
