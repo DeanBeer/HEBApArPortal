@@ -1,5 +1,5 @@
 module NRB::HEB
-  class Payment < Struct.new(:amount, :date, :line_items, :number, :record_type)
+  class InvoicePayment < Struct.new(:amount, :date, :line_items, :number, :record_type)
 
     JSON_ARGS = [ "amount", "date", "lineItems", "number", "recordType" ]
 

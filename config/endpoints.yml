@@ -1,0 +1,7 @@
+--- 
+:login_form:
+  :endpoint: '/VendorPortal/loginPage'
+:payments:
+  :endpoint: '/VendorPortal/secure/search/payment'
+:invoice:
+  :endpoint: '/VendorPortal/secure/search/invoice'
