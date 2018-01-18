@@ -31,6 +31,7 @@ module NRB::HEB::ApArPortal
       if( user_agent == MECHANIZE_AGENT )
         self.user_agent_alias = USER_AGENT
       end
+      pluggable_parser['application/json'] = JSONParser
     end
 
   end

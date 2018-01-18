@@ -34,7 +34,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "guard-rspec"
 
-  spec.add_dependency 'faraday_middleware-parse_oj'
+  spec.add_dependency 'mechanize'
+
+#  spec.add_dependency 'faraday_middleware-parse_oj'
   spec.add_dependency 'simple_config_loader'
-  spec.add_dependency 'NRB_http_service'
+#  spec.add_dependency 'NRB_http_service'
 end
